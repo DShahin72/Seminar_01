@@ -2,17 +2,17 @@
 System.Console.Write("Введите номер дня недели от 1 до 7: ");
 int daynumber = Convert.ToInt32(Console.ReadLine());
 
-if (daynumber == 1) 
+if (daynumber == 1)
 {
     System.Console.WriteLine("Это понедельник!");
 }
 
-else if (daynumber == 2) 
+else if (daynumber == 2)
 {
     System.Console.WriteLine("Это вторник!");
 }
-    
-else if (daynumber == 3) 
+
+else if (daynumber == 3)
 {
     System.Console.WriteLine("Это среда!");
 }
